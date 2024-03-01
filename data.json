@@ -1,0 +1,106 @@
+[    
+    {
+        "code" : "jbg",
+        "image" : [
+            "1.png", "2.png", "3.png"
+        ],
+        "name" : "JBG Transhipping Service",
+        "time" : "November, 2023",
+        "type" : "client",
+        "techstack" : "Laravel, Boostrap, API",
+        "description" : "<p>JBG Transhipping Service provide fish exports delivery from Indonesia to more than 50 countries in the world. It help a lot of fish farmer in Indonesia to reach international market and to promote the beauty of Indonesian water creature.</p><p>This project consist have three output, a website company profile and to track packages, admin panel, and mobile application. You can send your fish as farmer to your buyer using the mobile application, and can track your package from the public website, while the configuration is all done in the admin panel</p><p>I contribute in the finishing of the payment system, website optimization, UI adjustment, API bug fixing, and more (around 30% of the project).</p>",
+        "web" : "https://jbgtranshipping.com/en"
+    },
+    {
+        "code" : "indoprima",
+        "image" : [
+            "1.png"
+        ],
+        "name" : "Indoprima",
+        "time" : "March, 2024",
+        "type" : "client",
+        "techstack" : "Laravel, API",
+        "description" : "<p>Indoprima is an advertising company that help multiple phone vendor to design and build their booth in designed places. This company had a very complex project flow with multiple role needed at every steps</p><p>In this project my role is to build all the API features, it consist of material, tools, users, worker, payroll, purchasing, stocks, projects, and more. The most complex feature is their project, because it related to almost all the other features, and every role is different access to the project.</p>"
+    },
+    {
+        "code" : "sariangin",
+        "image" : [
+            "1.png", "2.jpeg"
+        ],
+        "name" : "Sariangin Bandung",
+        "time" : "February, 2024",
+        "type" : "client",
+        "techstack" : "Laravel, API",
+        "description" : "<p>Sariangin is a gas tank company that mainly deliver their product to health care facility. They have a lot of tank type, and delivery with some traffic in the city of Bandung.</p><p>In this project, i assigned to make new API feature to solve the traffic delivery in Bandung. I also improve some existing feature and algorithm.</p>"
+    },
+    {
+        "code" : "hallaw",
+        "image" : [
+            "1.png", "2.jpeg", "3.jpeg"
+        ],
+        "name" : "HALLAW",
+        "time" : "March, 2024",
+        "type" : "client",
+        "techstack" : "Laravel, API",
+        "description" : "<p>HALLAW is a law firm company who want to make client consultations easy using mobile app. They have two mobile app for client or public, and partner or law practioner.</p><p>In this project, i work mainly on the API system. It had a lot of trouble because the database relation is intimidating, and the user requirement is changing by a LOT when i try to develop this. The most complicated feature is their scheduling system that needs to be auto accepted by the partner app, without any clash of bookings. Other feature are payment gateway, jobs and queue, one signal notification, agora configuration, and more. In this project, i got involved for around 60 - 70 % of the entire backend process.</p>"
+    },
+    {
+        "code" : "advent",
+        "image" : [
+            "1.png", "2.jpeg", "3.png"
+        ],
+        "name" : "Penerbit Advent Indonesia",
+        "time" : "November, 2023",
+        "type" : "client",
+        "techstack" : "Laravel, Boostrap, API",
+        "description" : "<p><i>Penerbit Advent Indonesia</i> as the name suggest, is a official publisher company for advent (branch in Christianity) in Indonesia. They sells all kinds of religious books in their believe, mainly some reflection books, or song books (partiture)<p/><p>In this project, i got in charge to develop the admin panel system and API system. This project main product is mobile app to engage with their user in more sophisticated way. I learn a lot in this project about clean code, APIs, and admin panel layouting. Because this is my first project to integrate API system with mobile application requirements.</p>"
+    },
+    {
+        "code" : "ksm",
+        "image" : [
+            "1.png"
+        ],
+        "name" : "KSM (PT Kusuma Sampurna Mulia)",
+        "time" : "September, 2023",
+        "type" : "client",
+        "techstack" : "Laravel, Boostrap",
+        "description" : "<p>KSM is a large beauty salon company managing multiple salon accross Indonesia. their service is mainly about skin care treatment, hair salon, nail polish, beauty consulting, and more.</p><p>This website is about their human resource information system (HRIS), containing member list, branch list, attendance, clock in - out time, payroll, multiple excel exports - imports, and more. Because this website is for internal use, i dont have permission to capture it's admin panel layout.</p><p>In this website, i learn multiple compex algorithm and some advanced feature like excel exports - imports. My role here is to do some bug fixing, and finishing some features like payroll, pph21 exports, and more. Approximately (10% ~ 15%) of the project.</p>"
+    },
+    {
+        "code" : "bac",
+        "image" : [
+            "1.png", "2.png", "3.png", "4.png"
+        ],
+        "name" : "BAC (Bandung Arabic Center)",
+        "time" : "April, 2023",
+        "type" : "client",
+        "techstack" : "Laravel, Boostrap",
+        "description" : "<p>BAC is a place to learn arabic learning located in Bandung. This company has been around for more than 5 years and graduating a lot of students with multiple background like students who want to study abroad, lecturer, housewifes, and more.</p><p>It's not take long for me to make this website even though the feature is the most complex that i make at this point (around 2 weeks). It has all the feature my previous website had (queue, mailing, cronjob) and some additional feature like SEO management, auto command to create sitemap regularly, little bit of liveware, youtube video usage, and more. This website is also has admin panel to manage all of its content specialy programs, and some new applicant.<p/>",
+        "web" : "https://bandungarabiccenter.com/"
+    },
+    {
+        "code" : "bwm",
+        "image" : [
+            "1.png", "2.png", "3.png"
+        ],
+        "name" : "BWM (Badan Wakaf Al Mukarromah)",
+        "time" : "February, 2023",
+        "type" : "client",
+        "techstack" : "Laravel, Boostrap",
+        "description" : "<p>BWM is a non profit organization in Bandung, mainly involve in islamic community to improve people knowledge in religion and donation distributor to some poor people around Al Mukarromah Setrasari Mosque.</p><p>This website has multiple feature like programs, custom profile page, news, and some feature renewed every new programs. This website have admin panel to customize all the previous feature mentioned<p/><p>I make all of this website feature to improve my understanding about laravel, and web layouting in general. This is my also my first website working with some advance laravel feature like queue and mailing, also some web hosting related stuff like cron job.</p>",
+        "web" : "https://badanwakafalmukarromah.com/"
+    },
+    {
+        "code" : "erg",
+        "image" : [
+            "1.png", "2.png"
+        ],
+        "name" : "ERG (Embedded System Research Group)",
+        "time" : "August, 2020",
+        "type" : "training",
+        "techstack" : "Codeigniter 3, Boostrap",
+        "description" : "<p>My first web project, i learn a lot from making this website starting from database structure, programming logic, user interaction, and web design.</p><p>ERG is a research community in UNIKON, focusing in IoT technology, this website is showing what is this ERG about to attract new members or some visitor, and for internal use.</p><p> It has admin panel to manage member, schedule, program, news, and more.<p/>",
+        "github" : "https://github.com/wisnukm41/erg-panel",
+        "web" : "http://erg.unikom.ac.id/"
+    }
+]

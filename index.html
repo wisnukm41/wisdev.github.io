@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdev Portofolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="relative" id="about">
+    <div class="hidden bg-black bg-opacity-50 h-screen w-screen md:hidden z-10" id="menu" onclick="parentHide(event)">
+        <div class="bg-white w-40 float-right h-full flex justify-between flex-col" id="child">
+            <div class="flex flex-col p-4 items-end">
+                <div class="p-2 rounded-full cursor-pointer hover:bg-gray-100 duration-300" onclick="hideMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>                  
+                </div>
+                <div class="mt-4 uppercase tracking-widest space-y-4 text-right">
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#about">
+                            About
+                        </a>
+                    </div>
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#skills">
+                            Skills
+                        </a>
+                    </div>
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#projects">
+                            Projects
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-xs text-right p-4">
+                &copy; 2024
+            </div>
+        </div>
+    </div>
+    <section class="bg-[#A3F0F5] sticky top-0 z-10" onclick="showMenu()">
+        <div class="flex justify-between py-4 md:py-8 max-w-xs md:max-w-4xl mx-auto items-center">
+            <div>
+                <div class="bg-white p-2 md:p-4 rounded-full ">
+                    <img src="assets/logo.svg" class="h-4 md:h-8">
+                </div>
+            </div>
+            <div>
+                <div class="hidden md:flex items-center space-x-4 text-gray-800 text-xl md:space-x-8">
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#about">
+                            About
+                        </a>
+                    </div>
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#skills">
+                            Skills
+                        </a>
+                    </div>
+                    <div>
+                        <a class="cursor-pointer border-b-2 border-transparent hover:border-black duration-300" href="#projects">
+                            Projects
+                        </a>
+                    </div>
+                </div>
+                <div class="p-1 rounded-full hover:bg-white hover:cursor-pointer duration-300 md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section>
+        <div class="max-w-xs mx-auto md:flex md:max-w-4xl md:flex-row-reverse md:items-center">
+            <div class="my-6 md:py-12 md:space-y-8">
+                <img src="assets/picture.png" class="object-cover rounded-full size-60 mx-auto border border-[#A3F0F5] md:size-80">
+                <div class="space-x-2 hidden md:flex mt-10 md:space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:size-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                    </svg>  
+                    <div>
+                        Cimahi, Indonesia                   
+                    </div>
+                </div>
+
+                <div class="my-4 space-x-4 hidden md:flex">
+                    <a href="mailto:wisnu.murfa@gmail.com" class="bg-[#C71610] p-4 rounded-full" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                          </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/wisnukm41/" class="bg-[#0A66C2] p-4 rounded-full" target="_blank">
+                        <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" fill="white" class="w-8 h-8">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg>
+                    </a>
+                    <a href="https://github.com/wisnukm41" class="bg-black p-4 rounded-full" target="_blank">
+                        <svg viewBox="0 0 100 100" class="h-8 w-8" xmlns="http://www.w3.org/2000/svg"><path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="white"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-xs mx-auto md:max-w-lg">
+                <h1 class="text-lg md:text-2xl">Wisnu Murfadilah Rokhsan</h1>
+                <h2 class="text-sm md:text-lg">Web Developer</h2>
+                <p class="text-xs py-4 md:text-lg">Hello, i am a web developer mainly use Laravel with more than a year of professional experience. I am eager to learn new technology and have a very good team work and collaboration.</p>
+
+                <div class="flex space-x-2 text-sm md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                    </svg>  
+                    <div>
+                        Cimahi, Indonesia                   
+                    </div>
+                </div>
+
+                <div class="flex my-4 space-x-4 md:hidden">
+                    <a href="mailto:wisnu.murfa@gmail.com" class="bg-[#C71610] p-4 rounded-full" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                          </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/wisnukm41/" class="bg-[#0A66C2] p-4 rounded-full" target="_blank">
+                        <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" fill="white" class="w-8 h-8">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg>
+                    </a>
+                    <a href="https://github.com/wisnukm41" class="bg-black p-4 rounded-full" target="_blank">
+                        <svg viewBox="0 0 100 100" class="h-8 w-8" xmlns="http://www.w3.org/2000/svg"><path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="white"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-8 bg-[#A3F0F5] py-8 md:py-16" id="skills">
+        <div class="max-w-xs mx-auto md:max-w-2xl">
+            <h1 class="text-center font-bold tracking-widest text-lg mb-4 md:text-3xl">SKILLS</h1>
+            <div class="grid grid-cols-4 md:grid-cols-8 gap-2 md:py-8">
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/html.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">HTML</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/javascript.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Javascript</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/css.svg" class="size-14" >
+                    <p class="text-center text-xs md:text-sm md:mt-1">CSS</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/php.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">PHP</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/laravel.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Laravel</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/livewire.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Livewire</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/tailwindcss.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Tailwind</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/boostrap.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Boostrap</p>
+                </div>
+                <div class="hidden md:block col-span-2"></div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/vue.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Vue JS</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/postgres.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Postgres</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/mysql.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">Mysql</p>
+                </div>
+                <div class="card bg-white rounded-md shadow-md p-2">
+                    <img src="assets/node.svg" class="size-14">
+                    <p class="text-center text-xs md:text-sm md:mt-1">NodeJS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-8" id="projects">
+          <h1 class="text-center font-bold tracking-widest text-lg mb-4 md:text-2xl md:my-8">PROJECTS </h1>
+        
+          <div class="max-w-xs mx-auto flex flex-col space-y-4 md:max-w-4xl md:grid md:grid-cols-2 md:space-y-0 md:gap-4" id="projectContainer">
+      
+          </div>
+    </section>
+    <section class="py-4 bg-[#A3F0F5]">
+        <div class="max-w-xs mx-auto text-xs">
+            &copy; 2024
+        </div>
+    </section>
+    <div class="hidden top-0 bg-black bg-opacity-50 h-screen w-screen z-10 grid items-center overflow-scroll" id="hiddenProject" onclick="parentHide(event)">
+        <div class="p-4 bg-white max-w-sm mx-auto md:max-w-4xl" id="content">
+            <!-- <div class="flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>    
+            </div>
+            <div class="mt-4" >
+                <img class="rounded-lg" src="assets/test.jpg"/>
+                <div class="mt-2 flex space-x-4 overflow-scroll">
+                    <img class="rounded-lg cursor-pointer size-16 border-4 border-[#A3F0F5]" src="assets/test.jpg"/>
+                    <img class="rounded-lg cursor-pointer size-16 border-4 border-transparent" src="assets/test.jpg"/>
+                    <img class="rounded-lg cursor-pointer size-16 border-4 border-transparent" src="assets/test.jpg"/>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="font-bold text-lg">
+                    Lorem ipsum dolor sit amet.
+                </div>
+                <div class="text-xs">
+                    January, 2024
+                </div>
+                <div class="text-xs italic mt-4">
+                    Tech Stack : Laravel, Tailwind, ETC
+                </div>
+                <div class="text-xs mt-2 text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi quaerat ut fuga reprehenderit et alias cum sint! Doloremque, tenetur beatae assumenda earum blanditiis quibusdam laborum placeat. Fuga, fugiat animi?
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+<script src="script.js" defer>
+</script>
+</html>

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.fromRight { 
+    animation: fromright 0.5s; 
+} 
+  
+@keyframes fromright { 
+    0% { 
+        transform: translateX(100%); 
+    } 
+    
+    100% { 
+        transform: translateX(0); 
+    } 
+} 
+
+.toRight { 
+    animation: toright 0.5s; 
+} 
+  
+@keyframes toright { 
+    0% { 
+        transform: translateX(0); 
+    } 
+    
+    100% { 
+        transform: translateX(100%); 
+    } 
+} 

@@ -121,7 +121,7 @@ function changeImage(e){
                             </div>
                         </div>`;
             
-            let projectList = `<div class="bg-white border border-gray-200 rounded-lg shadow cursor-pointer project hover:-translate-y-2 duration-300" data-id="${element.code}" onclick="showProject(this)">
+            let projectList = `<div class="remove from-bot bg-white border border-gray-200 rounded-lg shadow cursor-pointer project hover:-translate-y-2 duration-300" data-id="${element.code}" onclick="showProject(this)">
                                     <div class="border-b">
                                         <img class="rounded-t-lg" src="${projectPrefix}/${element.code}/${element.image[0]}" alt="" />
                                     </div>
@@ -137,6 +137,18 @@ function changeImage(e){
 
         projectContainer = document.getElementById('projectContainer');
         projectContainer.innerHTML = allProject;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add('show');
+                }
+            });
+        });
+        
+        const hiddenElements = document.querySelectorAll('.remove');
+        hiddenElements.forEach(element => {
+            observer.observe(element);
+        });
     });
 })();
-

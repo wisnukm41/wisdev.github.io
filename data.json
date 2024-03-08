@@ -67,6 +67,18 @@
         "description" : "<p>KSM is a large beauty salon company managing multiple salon accross Indonesia. their service is mainly about skin care treatment, hair salon, nail polish, beauty consulting, and more.</p><p>This website is about their human resource information system (HRIS), containing member list, branch list, attendance, clock in - out time, payroll, multiple excel exports - imports, and more. Because this website is for internal use, i dont have permission to capture it's admin panel layout.</p><p>In this website, i learn multiple compex algorithm and some advanced feature like excel exports - imports. My role here is to do some bug fixing, and finishing some features like payroll, pph21 exports, and more. Approximately (10% ~ 15%) of the project.</p>"
     },
     {
+        "code" : "weather",
+        "image" : [
+            "1.png", "2.png", "3.png", "4.png"
+        ],
+        "name" : "Vue Weather APP",
+        "time" : "March, 2024",
+        "type" : "training",
+        "techstack" : "Vue JS, Tailwind",
+        "description" : "<p>Learning project with Vue JS, to sharpen my understanding about Vue JS and front-end API consumtion done in a 1 - 2 work days.<p/><p>i follow <a href='https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ&index=1' class='underline cursor-pointer' target='_blank'>this</a> tutorial to finish this project</p>",
+        "github" : "https://github.com/wisnukm41/weather-vue"
+    },
+    {
         "code" : "bac",
         "image" : [
             "1.png", "2.png", "3.png", "4.png"

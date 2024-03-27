@@ -8,7 +8,7 @@
         "time" : "November, 2023",
         "type" : "client",
         "techstack" : "Laravel, Boostrap, API",
-        "description" : "<p>JBG Transhipping Service provide fish exports delivery from Indonesia to more than 50 countries in the world. It help a lot of fish farmer in Indonesia to reach international market and to promote the beauty of Indonesian water creature.</p><p>This project consist have three output, a website company profile and to track packages, admin panel, and mobile application. You can send your fish as farmer to your buyer using the mobile application, and can track your package from the public website, while the configuration is all done in the admin panel</p><p>I contribute in the finishing of the payment system, website optimization, UI adjustment, API bug fixing, and more (around 30% of the project).</p>",
+        "description" : "<p>JBG Transhipping Service provide fish exports delivery from Indonesia to more than 50 countries in the world. It help a lot of fish farmer in Indonesia to reach international market and to promote the beauty of Indonesian water creature.</p><p>This project consist have three output, a website company profile to track packages, admin panel, and mobile application. You can send your fish as farmer to your buyer using the mobile application, and can track your package from the public website, while the configuration is all done in the admin panel</p><p>I contribute in the finishing of the payment system, website optimization, UI adjustment, API bug fixing, and more (around 30% of the project).</p>",
         "web" : "https://jbgtranshipping.com/en"
     },
     {
